@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+body, canvas, html{margin:0;padding:0}
+
+body {
+    font-family: 'Monserrat', sans-serif;
+    background: #fffaf0;
+}
+
+.canvas-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-weight: normal;
+    font-size: 5em;
+    margin: 1em 0 .25em 0;
+}
+
+.game-over {
+    visibility: hidden;
+    padding: 1em 0 1em 0;
+}
+canvas {
+    cursor: pointer;
+}
+
+.reset {
+    margin-top: 5em;
+    cursor: pointer;
+}
